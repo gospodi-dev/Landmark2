@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var selection: Tab = .featured
+    
     enum Tab {
         case featured
         case list
