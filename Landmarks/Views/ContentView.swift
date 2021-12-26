@@ -25,6 +25,9 @@ struct ContentView: View {
                         .tag(Tab.featured)
 
                     LandmarkList()
+                .tabItem {
+                    Label("List", systemImage: "list.triangle")
+                }
                         .tag(Tab.list)
                 }
     }
