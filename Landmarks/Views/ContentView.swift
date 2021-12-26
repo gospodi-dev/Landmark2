@@ -8,6 +8,12 @@ A view showing the list of landmarks.
 import SwiftUI
 
 struct ContentView: View {
+    
+    enum Tab {
+        case featured
+        case list
+    }
+    
     var body: some View {
         LandmarkList()
     }
