@@ -27,6 +27,7 @@ struct CategoryHome: View {
                     CategoryRow(categoryName: key, items: modelData.categories[key]!)
                 }
             }
+            .listStyle(.inset)
             .navigationTitle("Featured")
             .toolbar {
                 Button {
