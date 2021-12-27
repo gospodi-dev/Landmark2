@@ -36,6 +36,7 @@
 		CCD22AFA2776232300E3EECB /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD22AF92776232300E3EECB /* CategoryItem.swift */; };
 		CCF48E592779F9B60085BC19 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF48E582779F9B60085BC19 /* Profile.swift */; };
 		CCF48E5B2779FB8E0085BC19 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF48E5A2779FB8E0085BC19 /* ProfileHost.swift */; };
+		CCF48E5E2779FCD30085BC19 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF48E5D2779FCD30085BC19 /* ProfileSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		CCD22AF92776232300E3EECB /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		CCF48E582779F9B60085BC19 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		CCF48E5A2779FB8E0085BC19 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		CCF48E5D2779FCD30085BC19 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				CCF48E5A2779FB8E0085BC19 /* ProfileHost.swift */,
+				CCF48E5D2779FCD30085BC19 /* ProfileSummary.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				C20D77FF24B67FB3002E7AEA /* MapView.swift in Sources */,
 				CCD22AFA2776232300E3EECB /* CategoryItem.swift in Sources */,
 				C20D781824B6C5F6002E7AEA /* RotatedBadgeSymbol.swift in Sources */,
+				CCF48E5E2779FCD30085BC19 /* ProfileSummary.swift in Sources */,
 				C2C583B024DB7C0000DD0019 /* ContentView.swift in Sources */,
 				CCF48E5B2779FB8E0085BC19 /* ProfileHost.swift in Sources */,
 				C20D781624B6C582002E7AEA /* BadgeSymbol.swift in Sources */,
