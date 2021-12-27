@@ -35,6 +35,7 @@
 		CCD22AF827761F3D00E3EECB /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD22AF727761F3D00E3EECB /* CategoryRow.swift */; };
 		CCD22AFA2776232300E3EECB /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD22AF92776232300E3EECB /* CategoryItem.swift */; };
 		CCF48E592779F9B60085BC19 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF48E582779F9B60085BC19 /* Profile.swift */; };
+		CCF48E5B2779FB8E0085BC19 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF48E5A2779FB8E0085BC19 /* ProfileHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		CCD22AF727761F3D00E3EECB /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		CCD22AF92776232300E3EECB /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		CCF48E582779F9B60085BC19 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CCF48E5A2779FB8E0085BC19 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				C20D781924B6CA56002E7AEA /* Badges */,
 				C20D781E24B6CCB6002E7AEA /* Hikes */,
 				C2C583AE24DB7B1A00DD0019 /* Helpers */,
+				CCF48E5C2779FB930085BC19 /* Profiles */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +226,14 @@
 				CCD22AF92776232300E3EECB /* CategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		CCF48E5C2779FB930085BC19 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				CCF48E5A2779FB8E0085BC19 /* ProfileHost.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 				CCD22AFA2776232300E3EECB /* CategoryItem.swift in Sources */,
 				C20D781824B6C5F6002E7AEA /* RotatedBadgeSymbol.swift in Sources */,
 				C2C583B024DB7C0000DD0019 /* ContentView.swift in Sources */,
+				CCF48E5B2779FB8E0085BC19 /* ProfileHost.swift in Sources */,
 				C20D781624B6C582002E7AEA /* BadgeSymbol.swift in Sources */,
 				C20D780B24B68B4D002E7AEA /* LandmarkList.swift in Sources */,
 				C20D781424B6A662002E7AEA /* BadgeBackground.swift in Sources */,
