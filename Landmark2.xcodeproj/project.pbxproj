@@ -34,6 +34,7 @@
 		CCB636932774DC7C00CD2CEC /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB636922774DC7C00CD2CEC /* CategoryHome.swift */; };
 		CCD22AF827761F3D00E3EECB /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD22AF727761F3D00E3EECB /* CategoryRow.swift */; };
 		CCD22AFA2776232300E3EECB /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD22AF92776232300E3EECB /* CategoryItem.swift */; };
+		CCF48E592779F9B60085BC19 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF48E582779F9B60085BC19 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		CCB636922774DC7C00CD2CEC /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		CCD22AF727761F3D00E3EECB /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		CCD22AF92776232300E3EECB /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		CCF48E582779F9B60085BC19 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				C20D780424B684EC002E7AEA /* ModelData.swift */,
 				C20D780224B684BD002E7AEA /* Landmark.swift */,
 				C20D781F24B6CCCF002E7AEA /* Hike.swift */,
+				CCF48E582779F9B60085BC19 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD22AF827761F3D00E3EECB /* CategoryRow.swift in Sources */,
+				CCF48E592779F9B60085BC19 /* Profile.swift in Sources */,
 				C20D782024B6CCCF002E7AEA /* Hike.swift in Sources */,
 				CCB636932774DC7C00CD2CEC /* CategoryHome.swift in Sources */,
 				C20D782224B6CD01002E7AEA /* HikeGraph.swift in Sources */,
