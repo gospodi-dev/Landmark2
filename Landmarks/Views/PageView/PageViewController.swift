@@ -20,6 +20,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         let pageViewController = UIPageViewController(
             transitionStyle: .scroll,
             navigationOrientation: .horizontal)
+        pageViewController.dataSource = context.coordinator
 
         return pageViewController
     }
