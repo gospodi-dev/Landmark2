@@ -34,6 +34,7 @@
 		CC362D4C277B79F100E84764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC362D4B277B79F100E84764 /* Assets.xcassets */; };
 		CC362D4E277B7B3600E84764 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC362D4D277B7B3600E84764 /* FeatureCard.swift */; };
 		CC362D50277B803000E84764 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC362D4F277B803000E84764 /* PageView.swift */; };
+		CC97E467277E224400D90120 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC97E466277E224400D90120 /* PageControl.swift */; };
 		CCB636932774DC7C00CD2CEC /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB636922774DC7C00CD2CEC /* CategoryHome.swift */; };
 		CCD22AF827761F3D00E3EECB /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD22AF727761F3D00E3EECB /* CategoryRow.swift */; };
 		CCD22AFA2776232300E3EECB /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD22AF92776232300E3EECB /* CategoryItem.swift */; };
@@ -76,6 +77,7 @@
 		CC362D4B277B79F100E84764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/InterfacingWithUIKit/Complete/Landmarks/Assets.xcassets; sourceTree = "<group>"; };
 		CC362D4D277B7B3600E84764 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		CC362D4F277B803000E84764 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		CC97E466277E224400D90120 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		CCB636922774DC7C00CD2CEC /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		CCD22AF727761F3D00E3EECB /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		CCD22AF92776232300E3EECB /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				CC362D47277B763800E84764 /* PageViewController.swift */,
 				CC362D4D277B7B3600E84764 /* FeatureCard.swift */,
 				CC362D4F277B803000E84764 /* PageView.swift */,
+				CC97E466277E224400D90120 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				C20D780524B684EC002E7AEA /* ModelData.swift in Sources */,
 				C20D781224B6A3E7002E7AEA /* Badge.swift in Sources */,
 				C20D77F024B665D7002E7AEA /* LandmarkDetail.swift in Sources */,
+				CC97E467277E224400D90120 /* PageControl.swift in Sources */,
 				C20D77FF24B67FB3002E7AEA /* MapView.swift in Sources */,
 				CCD22AFA2776232300E3EECB /* CategoryItem.swift in Sources */,
 				C20D781824B6C5F6002E7AEA /* RotatedBadgeSymbol.swift in Sources */,
